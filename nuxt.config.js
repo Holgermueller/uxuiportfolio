@@ -6,7 +6,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - uxuiportfolio',
+    titleTemplate: 'Holger Mueller | UX/UI Developer',
     title: 'uxuiportfolio',
     htmlAttrs: {
       lang: 'en',
@@ -48,7 +48,7 @@ export default {
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
     theme: {
-      dark: true,
+      dark: false,
       themes: {
         dark: {
           primary: colors.blue.darken2,
