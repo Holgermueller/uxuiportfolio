@@ -1,6 +1,13 @@
 <template>
   <div id="About">
-    <h1>This is the about page.</h1>
+    <v-card class="about-card" elevation="0">
+      <v-card-title>
+        <h1 class="display-4">About Me</h1>
+      </v-card-title>
+      <v-card-text>
+        <p></p>
+      </v-card-text>
+    </v-card>
   </div>
 </template>
 
@@ -10,4 +17,12 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.about-card {
+  width: 85%;
+  margin: auto;
+}
+h1 {
+  letter-spacing: 4px;
+}
+</style>
