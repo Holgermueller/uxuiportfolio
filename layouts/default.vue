@@ -62,7 +62,7 @@ export default {
 /* .container {
   padding: 0;
 } */
-.header {
+.theme--light.v-app-bar.v-toolbar.v-sheet {
   background: transparent;
 }
 h1 {
