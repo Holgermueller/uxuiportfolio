@@ -28,17 +28,17 @@
         Nuxtjs</span
       ><v-spacer></v-spacer>
       <span class="socials">
-        <nuxt-link to="https://github.com/Holgermueller">
-          <v-icon>mdi-github</v-icon>
-        </nuxt-link>
-        <nuxt-link to="https://www.linkedin.com/in/holger-mueller-75855114a/">
-          <v-icon>mdi-linkedin</v-icon>
-        </nuxt-link>
-        <nuxt-link
-          to="https://stackoverflow.com/users/9111512/holger-mueller?tab=profile"
+        <a href="https://github.com/Holgermueller">
+          <v-icon>mdi-github</v-icon></a
         >
-          <v-icon>mdi-stack-overflow</v-icon>
-        </nuxt-link>
+        <a href="https://www.linkedin.com/in/holger-mueller-75855114a/">
+          <v-icon>mdi-linkedin</v-icon></a
+        >
+        <a
+          href="https://stackoverflow.com/users/9111512/holger-mueller?tab=profile"
+        >
+          <v-icon>mdi-stack-overflow</v-icon></a
+        >
       </span>
     </v-footer>
   </v-app>
