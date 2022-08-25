@@ -6,12 +6,28 @@
       <v-card-text>
         <div class="project-even project-display">
           <div class="img-even">Image placeholder</div>
-          <h2 class="project-title">Fearless Ticket Sellers</h2>
+          <div class="project-text-even">
+            <h2 class="project-title">Fearless Ticket Sellers</h2>
+            <p>How do I purchase tickets for smaller, unorthodox venues?</p>
+            <nuxt-link to="#">
+              <p class="title project-link">
+                See case study <v-icon right>mdi-arrow-right</v-icon>
+              </p>
+            </nuxt-link>
+          </div>
         </div>
 
         <div class="project-odd project-display">
           <div class="img-odd">Image placeholder</div>
-          <h2 class="project-title">Fearless Ticket Sellers</h2>
+          <div class="project-text-odd">
+            <h2 class="project-title">Fearless Ticket Sellers</h2>
+            <p>How do I purchase tickets for smaller, unorthodox venues?</p>
+            <nuxt-link to="#">
+              <p class="title project-link">
+                <v-icon left>mdi-arrow-left</v-icon> See case study
+              </p>
+            </nuxt-link>
+          </div>
         </div>
       </v-card-text>
     </v-card>
@@ -29,16 +45,18 @@ h1 {
 .project-display {
   width: 100%;
   height: 250px;
-  background-color: aqua;
   margin: 4px 0;
   border-radius: 15px;
 }
+.project-title {
+  padding: 16px;
+}
 
 .project-even {
-  text-align: right;
+  text-align: left;
 }
 .project-odd {
-  text-align: left;
+  text-align: right;
 }
 
 .img-odd,
@@ -49,15 +67,21 @@ h1 {
 }
 .img-even {
   float: left;
+  margin-right: 16px;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
 }
 .img-odd {
   float: right;
+  margin-left: 16px;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 }
-.project-title {
-  padding: 8px;
+
+a {
+  text-decoration: none;
+}
+.project-link {
+  border: 1px solid black;
 }
 </style>
