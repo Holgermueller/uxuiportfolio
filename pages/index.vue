@@ -9,7 +9,7 @@
         <br />
         <hr class="my-3" />
         <br />
-        <h2 class="display-1">UX/UI Designer and Developer</h2>
+        <h2 class="display-1">UX/UI Designer | Front End Developer</h2>
       </v-card-subtitle>
       <v-card-text>
         <h3 class="body-1">

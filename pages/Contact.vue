@@ -1,6 +1,17 @@
 <template>
   <div id="Contact">
-    <v-img class="hero-image" src="/connect.png"></v-img>
+    <!-- <v-card elevation="0">
+      <v-card-title class="card-title">
+        <v-img
+          height="400px"
+          class="hero-image white--text align-end"
+          src="/connect.png"
+        >
+          <h1 class="border display-4">Contact</h1>
+        </v-img>
+      </v-card-title>
+    </v-card> -->
+
     <ContactForm />
   </div>
 </template>
@@ -22,15 +33,3 @@ export default {
   },
 }
 </script>
-
-<style scoped>
-.reset-body {
-  margin: 0;
-}
-.hero-image {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 450px;
-}
-</style>

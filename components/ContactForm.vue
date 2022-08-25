@@ -2,6 +2,10 @@
   <div id="ContactForm" class="form-container">
     <v-card class="form-card" elevation="0" tile>
       <v-card-title>
+        <h1 class="display-4">Contact</h1>
+      </v-card-title>
+      <hr class="my-3" />
+      <v-card-title>
         <h1 class="display-1">Feel free to drop me a line!</h1>
       </v-card-title>
 
@@ -67,12 +71,13 @@ export default {
 <style scoped>
 .form-card {
   width: 85%;
-  margin: 3% auto;
+  margin: auto;
   background-color: inherit;
 }
-.form-container {
-  margin-top: 4%;
+h1 {
+  letter-spacing: 4px;
 }
+
 .button {
   margin-bottom: 10px;
 }

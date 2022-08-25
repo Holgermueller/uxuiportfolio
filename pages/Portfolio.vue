@@ -5,11 +5,12 @@
 
       <v-card-text>
         <div class="project-even project-display">
-          <div class="img-even">Image placeholder</div>
+          <v-img class="img-even" src="./fts.png"></v-img>
+
           <div class="project-text-even">
             <h2 class="project-title">Fearless Ticket Sellers</h2>
             <p>How do I purchase tickets for smaller, unorthodox venues?</p>
-            <nuxt-link to="#">
+            <nuxt-link to="/FTSCaseStudy">
               <p class="title project-link">
                 See case study <v-icon right>mdi-arrow-right</v-icon>
               </p>
@@ -17,7 +18,7 @@
           </div>
         </div>
 
-        <div class="project-odd project-display">
+        <!-- <div class="project-odd project-display">
           <div class="img-odd">Image placeholder</div>
           <div class="project-text-odd">
             <h2 class="project-title">Fearless Ticket Sellers</h2>
@@ -28,7 +29,7 @@
               </p>
             </nuxt-link>
           </div>
-        </div>
+        </div> -->
       </v-card-text>
     </v-card>
   </div>
@@ -46,7 +47,7 @@ h1 {
   width: 100%;
   height: 250px;
   margin: 4px 0;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 .project-title {
   padding: 16px;
@@ -61,15 +62,14 @@ h1 {
 
 .img-odd,
 .img-even {
-  background-color: black;
   height: 100%;
   width: 25%;
 }
 .img-even {
   float: left;
   margin-right: 16px;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 .img-odd {
   float: right;
@@ -80,8 +80,5 @@ h1 {
 
 a {
   text-decoration: none;
-}
-.project-link {
-  border: 1px solid black;
 }
 </style>
