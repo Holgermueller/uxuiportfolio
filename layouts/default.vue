@@ -59,6 +59,9 @@ export default {
 </script>
 
 <style scoped>
+.container {
+  padding: 0;
+}
 .header {
   background: transparent;
 }
