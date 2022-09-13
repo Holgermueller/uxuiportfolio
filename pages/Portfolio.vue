@@ -81,4 +81,9 @@ h1 {
 a {
   text-decoration: none;
 }
+@media (min-width: 360px) and (max-width: 450px) {
+  .v-application .display-4 {
+    font-size: 2.5rem !important;
+  }
+}
 </style>

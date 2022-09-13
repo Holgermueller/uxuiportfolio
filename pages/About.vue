@@ -6,8 +6,8 @@
       </v-card-title>
       <v-card-text>
         <p class="about-paragraph body-1">
-          I'm a UX/UI Designer and a full-stack front-end developer living in
-          Batesville, Arkansas.
+          I'm a UX/UI Designer, a full-stack web developer, and JAMstacker
+          living in Batesville, Arkansas.
         </p>
         <p class="about-paragraph body-1">
           Originally from Upstate New York, I moved to Batesville halfway
@@ -62,5 +62,10 @@ h1 {
 .about-paragraph {
   text-align: justify;
   text-justify: inter-word;
+}
+@media (min-width: 360px) and (max-width: 450px) {
+  .v-application .display-4 {
+    font-size: 2.5rem !important;
+  }
 }
 </style>

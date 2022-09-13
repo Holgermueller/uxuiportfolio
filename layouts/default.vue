@@ -2,13 +2,13 @@
   <v-app dark>
     <v-app-bar class="header" elevation="0" app>
       <nuxt-link to="/">
-        <h1 class="display-1">Holger Mueller</h1>
+        <h1 class="display-1 primary--text">HM</h1>
       </nuxt-link>
 
       <v-spacer></v-spacer>
       <div v-for="(link, i) in navArray" :key="i">
         <nuxt-link :to="link.path">
-          <h3 class="subtitle-1">
+          <h3 class="subtitle-1 primary--text">
             <span class="mr-6">
               {{ link.linkName }}
             </span>
@@ -59,11 +59,8 @@ export default {
 </script>
 
 <style scoped>
-/* .container {
-  padding: 0;
-} */
 .theme--light.v-app-bar.v-toolbar.v-sheet {
-  background: transparent;
+  background-color: #f8f8ff;
 }
 h1 {
   letter-spacing: 2px;
@@ -76,6 +73,6 @@ footer {
   position: absolute;
   left: 0;
   bottom: 0;
-  background-color: inherit;
+  background-color: #f8f8ff;
 }
 </style>
