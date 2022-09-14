@@ -2,7 +2,7 @@
   <div id="ContactForm" class="form-container">
     <v-card class="form-card" elevation="0" tile>
       <v-card-title>
-        <h1 class="display-4">Contact</h1>
+        <h1 class="display-4 primary--text">Contact</h1>
       </v-card-title>
       <hr class="my-3" />
       <v-card-title>

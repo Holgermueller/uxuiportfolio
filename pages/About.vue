@@ -2,7 +2,7 @@
   <div id="About">
     <v-card class="about-card" elevation="0">
       <v-card-title>
-        <h1 class="display-4">About Me</h1>
+        <h1 class="display-4 primary--text">About Me</h1>
       </v-card-title>
       <v-card-text>
         <p class="about-paragraph body-1">
