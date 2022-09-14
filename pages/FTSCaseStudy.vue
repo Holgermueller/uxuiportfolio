@@ -205,7 +205,7 @@
     <div class="flow-display">
       <v-img
         class="align-end text-center"
-        src="./alllofidemo.png"
+        src="./hifiprotofts.png"
         height="300px"
       >
         <p class="pt-8">

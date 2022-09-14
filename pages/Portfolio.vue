@@ -51,7 +51,7 @@ export default {
   data: () => ({
     projects: [
       { title: 'Jobz', link: '/JobzCasestudy' },
-      { title: 'Hepcats', link: '/HepcatsCasestudy' },
+      { title: 'HepCatz', link: '/HepcatsCasestudy' },
       { title: 'Fearless Ticket Sellers', link: '/FTSCaseStudy' },
     ],
   }),
