@@ -53,6 +53,7 @@ export default {
       { linkName: 'Portfolio', path: '/portfolio' },
       { linkName: 'About', path: '/about' },
       { linkName: 'Contact', path: '/contact' },
+      { linkName: 'Resume', path: '/resume' },
     ],
   }),
 }

@@ -200,6 +200,8 @@
       </p>
     </div>
 
+    <v-img src="hepprocessing.png"></v-img>
+
     <v-btn class="my-16 mx-auto" @click="backToTop" text>
       <v-icon left>mdi-arrow-up</v-icon> Back to top</v-btn
     >
