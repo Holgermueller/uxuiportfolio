@@ -183,6 +183,23 @@
       </p>
     </div>
 
+    <div class="flow-display">
+      <v-img class="align-end text-center" src="./hepcatshififlow.png">
+        <p class="pt-8">
+          The hi-fi prototype demonstrates a clear user flow and a minimalist
+          design the won’t distract the user from their shopping
+        </p></v-img
+      >
+      <p class="title adobexd-link">
+        Check out the Hi-Fi prototype
+        <a
+          href="https://xd.adobe.com/view/94ede236-b619-4328-9079-af82edad2e5b-c1be/"
+          target="_blank"
+          >here</a
+        >
+      </p>
+    </div>
+
     <v-btn class="my-16 mx-auto" @click="backToTop" text>
       <v-icon left>mdi-arrow-up</v-icon> Back to top</v-btn
     >
