@@ -274,7 +274,6 @@
         make FTS a great app.
       </p>
     </section>
-    <p>hello</p>
 
     <v-img
       class="full mx-auto"
