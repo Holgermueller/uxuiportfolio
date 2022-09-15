@@ -200,6 +200,89 @@
       </p>
     </div>
 
+    <div class="section-background">
+      <section class="case-study-info">
+        <p class="headline">
+          Built with mobile responsitivity in mind, users can access HepCatz on
+          mobile devices as well.
+        </p>
+      </section>
+    </div>
+
+    <v-img
+      class="mx-auto"
+      width="879"
+      height="548"
+      src="hepwireframes.png"
+    ></v-img>
+
+    <div class="section-background">
+      <section class="case-study-info">
+        <p class="headline">
+          Since the site is mobile responsive, the user navigational flow is
+          pretty much the same as on a desktop or laptop.
+        </p>
+        <p class="headline">
+          The main difference is instead of a static nav bar at the top of the
+          site, the site features a nav drawer which users can access via the
+          nav icon in the top left corner of the app.
+        </p>
+      </section>
+    </div>
+
+    <v-img class="mx-auto" width="435" height="532" src="hepmobile.png"></v-img>
+
+    <div class="section-background">
+      <section class="case-study-info">
+        <h3 class="headline text-center py-4">Accessability considerations:</h3>
+        <v-container fluid>
+          <v-layout row wrap>
+            <v-flex xs12 sm12 md6 lg4 xl4>
+              <p class="headline text-center">1</p>
+              <p class="problem">
+                Used proper heading annotations for users who require screen
+                readers.
+              </p>
+            </v-flex>
+            <v-flex xs12 sm12 md6 lg4 xl4>
+              <p class="headline text-center">2</p>
+              <p class="problem">
+                Held strictly to minimal color design so as not to cause too
+                much visual confusion.
+              </p>
+            </v-flex>
+            <v-flex xs12 sm12 md6 lg4 xl4>
+              <p class="headline text-center">3</p>
+              <p class="problem">
+                Ensured colors held to WCAG contrast guidelines.
+              </p>
+            </v-flex>
+          </v-layout>
+        </v-container>
+      </section>
+    </div>
+
+    <section class="case-study-info">
+      <h3 class="headline text-center py-4">Takeaways:</h3>
+      <v-container fluid>
+        <v-layout row wrap>
+          <v-flex xs12 sm12 md6 lg6 xl6>
+            <p class="headline text-center">1</p>
+            <p class="problem">
+              Users want to be able to find the items they’re looking for
+              without having to sift through a bunch of other irrelevant items.
+            </p>
+          </v-flex>
+          <v-flex xs12 sm12 md6 lg6 xl6>
+            <p class="headline text-center">2</p>
+            <p class="problem">
+              High-contrast colors make for a better user experience.
+            </p>
+          </v-flex>
+        </v-layout>
+      </v-container>
+    </section>
+
     <v-img src="hepprocessing.png"></v-img>
 
     <v-btn class="my-16 mx-auto" @click="backToTop" text>
