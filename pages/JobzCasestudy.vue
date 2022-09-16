@@ -53,20 +53,21 @@
         <v-flex xs12 sm12 md6 lg6 xl6>
           <div class="illustration-info mx-auto">
             <p>
-              The integrated map allows users to find a given show's venue
-              without having to waste time by going to another app.
+              Initial designs for the Jobz mobile app focused on quick resume
+              templateing for job seekers on the go.
             </p>
             <br />
             <p>
-              The integrated map also allows users to input their point of
-              departure, because they may not be leaving from the spot where
-              they were when they bought their tickets.
+              Users, after setting up an initial resume, would be able to
+              include features they deem necessary to applying to a given job,
+              allowing them to easily tailor their resumes to specific job
+              listings.
             </p>
           </div>
         </v-flex>
         <v-flex xs12 sm12 md6 lg6 xl6>
           <v-img
-            src="./map.png"
+            src="./jobslofires.png"
             height="609px"
             width="312px"
             class="mx-auto"
@@ -74,6 +75,64 @@
         </v-flex>
       </v-layout>
     </v-container>
+
+    <div class="flow-display">
+      <v-img
+        class="align-end text-center"
+        src="./jobslofiflow.png"
+        height="300px"
+      >
+        <p>
+          I created a lo-fi prototype to see how if the user flow was intuitive
+          enough.
+        </p></v-img
+      >
+      <p class="title adobexd-link">
+        You can see the Lo-Fi prototype
+        <a
+          href="https://xd.adobe.com/view/e6e29c80-a3f0-47b0-9fbe-e3367e43c572-b3b1/"
+          target="_blank"
+          >here</a
+        >
+      </p>
+    </div>
+
+    <div class="section-background">
+      <section class="case-study-info">
+        <p class="headline text-center">
+          A remote usability study of five people uncovered three findings:
+        </p>
+        <v-container fluid>
+          <v-layout row wrap>
+            <v-flex xs12 sm12 md6 lg4 xl4>
+              <p class="headline text-center">1</p>
+              <p class="headline text-center">Better resources</p>
+              <p class="problem">
+                Users don’t just want contact info. To really help them,
+                integrate a map or open to Google maps by clicking on the
+                address.
+              </p>
+            </v-flex>
+            <v-flex xs12 sm12 md6 lg4 xl4>
+              <p class="headline text-center">2</p>
+              <p class="headline text-center">Ratings</p>
+              <p class="problem">
+                Users want to know more about a potential employer without
+                having to comb the Internet.
+              </p>
+            </v-flex>
+            <v-flex xs12 sm12 md6 lg4 xl4>
+              <p class="headline text-center">3</p>
+              <p class="headline text-center">Continuity</p>
+              <p class="problem">
+                Users at least wanted the option of beginning work on one
+                platform and continuing on another.
+              </p>
+            </v-flex>
+          </v-layout>
+        </v-container>
+      </section>
+    </div>
 
     <v-btn class="my-16 mx-auto" @click="backToTop" text>
       <v-icon left>mdi-arrow-up</v-icon> Back to top</v-btn
@@ -115,7 +174,16 @@ h2 {
   width: 90%;
   margin: auto;
 }
-
+.illustration-info {
+  margin: auto;
+  width: 85%;
+  padding: 2%;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
 .flow-display {
   margin: 8% 0;
 }
