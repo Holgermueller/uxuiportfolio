@@ -60,6 +60,10 @@
       <div class="stack">
         <h2>Tech Stack</h2>
         <div class="stack-cards">
+          <div class="stack-card">
+            <span>Figma, Adobe XD, Pen and Paper</span>
+          </div>
+
           <div class="stack-card"><span>Vue, Vuex, Vuetify, Nuxt</span></div>
           <div class="stack-card">
             <span>React, Gatsby, Redux, Material UI</span>

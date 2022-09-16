@@ -134,6 +134,124 @@
       </section>
     </div>
 
+    <v-container class="mx-auto my-4" fluid>
+      <v-layout row wrap>
+        <v-flex xs12 sm12 md6 lg6 xl6>
+          <div class="illustration-info mx-auto">
+            <p>
+              Based on the insights from the usability studies, I improved my
+              designs to better suit users’ needs, like the inclusion of data
+              about potential employers.
+            </p>
+          </div>
+        </v-flex>
+        <v-flex xs12 sm12 md6 lg6 xl6>
+          <v-img
+            src="./jobsappprofile.png"
+            height="425"
+            width="196"
+            class="mx-auto"
+          ></v-img>
+        </v-flex>
+      </v-layout>
+    </v-container>
+
+    <v-container class="mx-auto my-4" fluid>
+      <v-layout row wrap>
+        <v-flex xs12 sm12 md6 lg6 xl6>
+          <v-img
+            src="./jobssavejob.png"
+            height="425"
+            width="196"
+            class="mx-auto"
+          ></v-img>
+        </v-flex>
+        <v-flex xs12 sm12 md6 lg6 xl6>
+          <div class="illustration-info mx-auto">
+            <p>
+              Additional improvements included giving users the option of saving
+              job listings until they could get to them later.
+            </p>
+          </div>
+        </v-flex>
+      </v-layout>
+    </v-container>
+
+    <div class="flow-display">
+      <v-img class="align-end text-center" src="./jobsappflow.png">
+        <p class="pt-8">
+          The hi-fi prototype follows pretty much the same user flow as the
+          lo-fi prototype, albeit with a few more features thrown in.
+        </p></v-img
+      >
+      <p class="title adobexd-link">
+        Check out the Hi-Fi prototype
+        <a
+          href="https://xd.adobe.com/view/2fd5fef6-7e13-4db5-90d1-77b27a8abe7a-7a86/"
+          target="_blank"
+          >here</a
+        >
+      </p>
+    </div>
+
+    <div class="section-background">
+      <section class="case-study-info">
+        <p class="headline text-center">Accessability Considerations:</p>
+        <v-container fluid>
+          <v-layout row wrap>
+            <v-flex xs12 sm12 md6 lg4 xl4>
+              <p class="headline text-center">1</p>
+              <p class="problem">
+                Integrated microphone for users who only have the use of one
+                hand for whatever reason.
+              </p>
+            </v-flex>
+            <v-flex xs12 sm12 md6 lg4 xl4>
+              <p class="headline text-center">2</p>
+              <p class="problem">
+                Colors were checked against WCAG guidelines to ensure color
+                contrasts would not exclude anyone.
+              </p>
+            </v-flex>
+            <v-flex xs12 sm12 md6 lg4 xl4>
+              <p class="headline text-center">3</p>
+              <p class="problem">
+                Upon creating a profile, users will be able to choose the
+                language in which the app will be.
+              </p>
+            </v-flex>
+          </v-layout>
+        </v-container>
+      </section>
+    </div>
+
+    <p class="headline text-center">Responsive Design</p>
+
+    <p class="headline">
+      The app designs finished, I moved on to the responsive web designs. For
+      the desktop version, I focused more on features better suited to tasks
+      done at a keyboard.
+    </p>
+
+    <v-img src="./jobsmobileideation.png"></v-img>
+
+    <div class="section-background">
+      <section class="case-study-info">
+        <p class="headline">
+          The designs for screen size variation included mobile, tablet, and
+          desktop. I optimized the designs to fit specific user needs of each
+          device and screen size.
+        </p>
+      </section>
+    </div>
+
+    <v-img width="97" height="301" src="./responsivemobilehome.png"></v-img>
+
+    <v-img width="191" height="361" src="./tablethome.png"></v-img>
+
+    <p class="headline text-center">Desktop</p>
+    <v-img width="635" height="420" src="./jobsdeskhome.png"></v-img>
+
     <v-btn class="my-16 mx-auto" @click="backToTop" text>
       <v-icon left>mdi-arrow-up</v-icon> Back to top</v-btn
     >
