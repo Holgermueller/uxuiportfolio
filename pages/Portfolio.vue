@@ -22,19 +22,23 @@
               <v-expand-transition>
                 <div
                   v-if="hover"
-                  class="d-flex transition-fast-in-fast-out primary darken-2 v-card--reveal text-display-4 white--text"
+                  class="d-flex transition-fast-in-fast-out darken-2 v-card--reveal white--text"
                   style="height: 100%"
                 >
-                  <h2 class="title project-link text--white">
+                  <div class="display-1 project-link text--white">
                     <nuxt-link :to="project.link">
-                      {{ project.title }}
+                      See the case study <v-icon right>mdi-arrow-right</v-icon>
                     </nuxt-link>
-                  </h2>
+                  </div>
                 </div>
               </v-expand-transition>
-              <v-card-title> Title </v-card-title>
+              <v-card-title>
+                <h2>
+                  {{ project.title }}
+                </h2>
+              </v-card-title>
               <v-card-text>
-                <h1>Demo Card</h1>
+                <p>{{ project.descrip }}</p>
               </v-card-text>
             </v-card>
           </v-hover>
@@ -50,9 +54,23 @@ export default {
 
   data: () => ({
     projects: [
-      { title: 'Jobz', link: '/JobzCasestudy' },
-      { title: 'HepCatz', link: '/HepcatsCasestudy' },
-      { title: 'Fearless Ticket Sellers', link: '/FTSCaseStudy' },
+      {
+        title: 'Jobz',
+        link: '/JobzCasestudy',
+        descrip:
+          'A mobile app and responsive website to help first-generation immigrants find jobs',
+      },
+      {
+        title: 'HepCatz',
+        link: '/HepcatsCasestudy',
+        descrip: 'A responsive e-commerce site.',
+      },
+      {
+        title: 'Fearless Ticket Sellers',
+        link: '/FTSCaseStudy',
+        descrip:
+          'A mobile app that allows underground bands sell tickets to untraditional venues.',
+      },
     ],
   }),
 }
@@ -75,7 +93,7 @@ h1 {
   align-items: center;
   bottom: 0;
   justify-content: center;
-  opacity: 0.5;
+  background: rgba(19, 167, 190, 0.5);
   position: absolute;
   width: 100%;
 }
@@ -83,7 +101,9 @@ h1 {
 .project-title {
   padding: 16px;
 }
-
+.v-icon {
+  color: white;
+}
 a {
   text-decoration: none;
   color: white;
