@@ -245,12 +245,65 @@
       </section>
     </div>
 
-    <v-img width="97" height="301" src="./responsivemobilehome.png"></v-img>
-
-    <v-img width="191" height="361" src="./tablethome.png"></v-img>
+    <v-container class="mx-auto my-4" fluid>
+      <v-layout row wrap>
+        <v-flex xs12 sm12 md6 lg6 xl6>
+          <p class="headline text-center">Mobile</p>
+          <v-img
+            class="mx-auto"
+            width="97"
+            height="301"
+            src="./responsivemobilehome.png"
+          ></v-img>
+        </v-flex>
+        <v-flex xs12 sm12 md6 lg6 xl6>
+          <p class="headline text-center">Tablet</p>
+          <v-img
+            class="mx-auto"
+            width="191"
+            height="361"
+            src="./tablethome.png"
+          ></v-img>
+        </v-flex>
+      </v-layout>
+    </v-container>
 
     <p class="headline text-center">Desktop</p>
-    <v-img width="635" height="420" src="./jobsdeskhome.png"></v-img>
+    <v-img
+      class="mx-auto"
+      width="635"
+      height="420"
+      src="./jobsdeskhome.png"
+    ></v-img>
+
+    <div class="section-background">
+      <section class="case-study-info">
+        <p class="headline text-center">Takeaways:</p>
+        <v-container class="mx-auto my-4" fluid>
+          <v-layout row wrap>
+            <v-flex xs12 sm12 md6 lg6 xl6>
+              <p class="headline text-center">Impact:</p>
+              <p>
+                Users found the inclusion of things like maps and
+                potential-employer ratings from other sites made the Jobz app
+                more user friendly, as they did not have to go to another site
+                to get this information.
+              </p>
+            </v-flex>
+            <v-flex xs12 sm12 md6 lg6 xl6>
+              <p class="headline text-center">What I Learned:</p>
+              <p>
+                Even though a lot of the problems first-generation immigrants
+                face cannot be solved with an app, the few problems it does
+                solve makes things that much more equitable for them.
+              </p>
+            </v-flex>
+          </v-layout>
+        </v-container>
+      </section>
+    </div>
+
+    <v-img class="mx-auto" src="./jobzsubmitted.png"></v-img>
 
     <v-btn class="my-16 mx-auto" @click="backToTop" text>
       <v-icon left>mdi-arrow-up</v-icon> Back to top</v-btn
