@@ -143,6 +143,16 @@
       <section class="work">
         <h2>Profesional Work Experience</h2>
         <h3 class="job">
+          Web Development Tutor, Wyzant and Varsity Tutors, Remote
+        </h3>
+        <strong class="job-date"> April 2023 - Current </strong>
+
+        <ul class="responsibilities">
+          <li>Tutoring students on HTML, CSS, and JavaScript fundamentals</li>
+          <li>Review process for pushing code to Github</li>
+        </ul>
+
+        <h3 class="job">
           Floor/Inventory Lead/Manager, Magers &amp; Quinn Booksellers,
           Minneapolis, MN
         </h3>
@@ -239,6 +249,8 @@
 
       <section class="education">
         <h2>Education</h2>
+        <h3 class="school">Google IT Support Specialization Certificate</h3>
+        <p class="further-description">Professional Certificate</p>
         <h3 class="school">Google UX Design</h3>
         <p class="further-description">Professional Certificate</p>
         <h3 class="school">Free Code Camp</h3>
