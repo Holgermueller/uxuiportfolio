@@ -24,8 +24,8 @@
 
     <v-footer app>
       <span
-        >&copy; {{ new Date().getFullYear() }} Holger Mueller | Built with
-        Nuxtjs</span
+        >Copyright &copy; 2022 - {{ new Date().getFullYear() }} Holger Mueller |
+        Built with Nuxtjs</span
       ><v-spacer></v-spacer>
       <span class="socials">
         <a href="https://github.com/Holgermueller">
